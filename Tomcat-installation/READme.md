@@ -27,7 +27,7 @@ sudo yum install wget unzip -y
 ## Install Tomcat version 9.0.84
 ### Download and extract the tomcat server
 ``` sh
-sudo wget  https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.84.zip
+sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.83/bin/apache-tomcat-9.0.83.zip
 sudo unzip apache-tomcat-9.0.84.zip
 sudo rm -rf apache-tomcat-9.0.84.zip
 ### rename tomcat for good naming convention
