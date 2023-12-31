@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo timedatectl set-timezone America/New_York
+sudo timedatectl set-timezone America/Chicago
 sudo hostnamectl set-hostname jenkins
 sudo yum install wget tree vim git nano unzip -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
